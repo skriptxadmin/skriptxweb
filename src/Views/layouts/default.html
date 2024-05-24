@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{$framework_name}</title>
+    <link rel="stylesheet" href="{$site_url}/styles/libs.css?ver={$app_version}">
+    <link rel="stylesheet" href="{$site_url}/styles/app.css?ver={$app_version}">
+</head>
+<body>
+    
+    {include file="tpls/navbar-primary.html"}
+
+    {block name="content"}{/block}
+
+    <script src="{$site_url}/scripts/libs.js?ver={$app_version}"></script>
+    <script src="{$site_url}/scripts/app.js?ver={$app_version}"></script>
+</body>
+</html>

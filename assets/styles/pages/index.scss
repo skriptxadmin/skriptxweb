@@ -1,0 +1,22 @@
+.carousel{
+
+    .carousel-item{
+        height: 400px;
+        &.a{
+            background-color: aquamarine;
+        }
+        &.b{
+            background-color:azure;
+        }
+        &.c{
+            background-color: beige;
+        }
+        .carousel-caption{
+            color: black;
+        }
+    }
+}
+
+.ch-200{
+    height: 200px;
+}
