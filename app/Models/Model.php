@@ -14,14 +14,8 @@ class Model extends \Illuminate\Database\Eloquent\Model
         $capsule = new Capsule;
 
         $capsule->addConnection([
-            'driver' => 'mysql',
-            'host' => 'localhost',
-            'database' => $_ENV['DATABASE_NAME'],
-            'username' => $_ENV['DATABASE_USER'],
-            'password' => $_ENV['DATABASE_PASSWORD'],
-            'charset' => 'utf8',
-            'collation' => 'utf8_unicode_ci',
-            'prefix' => $_ENV['DATABASE_PREFIX'],
+            'driver' => 'sqlite',
+            'database' => ROOT_DIR.'database/database.sqlite',
         ]);
 
 // Set the event dispatcher used by Eloquent models... (optional)

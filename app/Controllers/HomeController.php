@@ -4,13 +4,13 @@ namespace App\Controllers;
 
 
 
-class IndexController extends Controller{
+class HomeController extends Controller{
 
     public function index(){
 
         $data = ['name' => 'NAMO PHP'];
 
-        $this->view('index/index', $data);
+        $this->view('home/index', $data);
 
         return;
 
