@@ -1,0 +1,11 @@
+#homeCarouselCaptions{
+    img {
+        height: 450px;
+        width: 100%;
+        // object-fit:contain; // here
+    }
+    .carousel-caption{
+        background-color: rgba(0,0,0,0.5);
+    }
+}
+

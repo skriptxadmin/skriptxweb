@@ -1,0 +1,50 @@
+<div id="homeCarouselCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+        {foreach $carousel_content as $content}
+        {if $content@first}
+        <button type="button" data-bs-target="#homeCarouselCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+        {else}
+        <button type="button" data-bs-target="#homeCarouselCaptions" data-bs-slide-to="{$content@index}"
+            aria-current="true" aria-label="Slide {$content@index+1}"></button>
+        {/if}
+        {/foreach}
+
+    </div>
+    <div class="carousel-inner">
+        {foreach $carousel_content as $content}
+        {if $content@first}
+        <div class="carousel-item active">
+            <img src="{$site_url}/{$content->Image_Url}" class="d-block w-100" alt="{$content->Image}">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>{$content->Headline}</h5>
+                <h5>{$content->Subheadline}</h5>
+
+                <p>{$content->Description}</p>
+            </div>
+        </div>
+        {else}
+        <div class="carousel-item">
+            <img src="{$site_url}/{$content->Image_Url}" class="d-block w-100" alt="{$content->Image}">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>{$content->Headline}</h5>
+                <h5>{$content->Subheadline}</h5>
+                <p>{$content->Description}</p>
+            </div>
+        </div>
+        {/if}
+        {/foreach}
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#homeCarouselCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#homeCarouselCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+<div class="d-flex justify-content-end align-items-center">
+    <a href="https://easy-peasy.ai/" class="text-muted text-sm" target="_blank">Image Courtesy: Easy-Peasy.AI</a>
+</div>

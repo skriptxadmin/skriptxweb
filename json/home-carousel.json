@@ -1,0 +1,58 @@
+[
+    {
+        "Headline": "Welcome to Skriptx",
+        "Subheadline": "Innovating Tomorrow, Today",
+        "Description": "Discover cutting-edge software solutions tailored to your business needs. Let's transform your vision into reality.",
+        "Image": "A dynamic team brainstorming or working on computers",
+        "Image_Url": "images/home-carousel/img-1.png"
+    },
+    {
+        "Headline": "Custom Software Development",
+        "Subheadline": "Tailored Solutions for Your Business",
+        "Description": "Our team crafts bespoke software that drives efficiency, scalability, and innovation. From concept to deployment, we've got you covered.",
+        "Image": "Developers writing code or a sophisticated software interface.",
+        "Image_Url": "images/home-carousel/img-2.png"
+    },
+    {
+        "Headline": "Web Development",
+        "Subheadline": "Engaging and Responsive Designs",
+        "Description": "Create a compelling online presence with our expert web development services. We build websites that engage and convert.",
+        "Image": "A beautifully designed, responsive website on a desktop and mobile device.",
+        "Image_Url": "images/home-carousel/img-3.png"
+    },
+    {
+        "Headline": "Mobile App Development",
+        "Subheadline": "Intuitive Apps for iOS and Android",
+        "Description": "Bring your ideas to life with our mobile app development services. We build intuitive and powerful apps for a seamless user experience.",
+        "Image": "A mobile app interface on an iPhone and Android device.",
+        "Image_Url": "images/home-carousel/img-4.png"
+    },
+    {
+        "Headline": "Cloud Solutions",
+        "Subheadline": "Scalable and Secure",
+        "Description": "Leverage the power of the cloud with our robust solutions. Enhance scalability, security, and collaboration for your business.",
+        "Image": "Cloud infrastructure or a person interacting with cloud technology.",
+        "Image_Url": "images/home-carousel/img-5.png"
+    },
+    {
+        "Headline": "AI & Machine Learning",
+        "Subheadline": "Intelligent Applications",
+        "Description": "Harness the power of AI and machine learning. We create intelligent applications that deliver insights and automation.",
+        "Image": "A visualization of AI technology, like data flow or a neural network.",
+        "Image_Url": "images/home-carousel/img-6.png"
+    },
+    {
+        "Image": "Happy clients or a graph showing growth and success.",
+        "Headline": "Success Stories",
+        "Subheadline": "Transforming Businesses",
+        "Description": "Explore how we’ve helped businesses like yours achieve their goals. [Link to Case Studies]",
+        "Image_Url": "images/home-carousel/img-7.png"
+    },
+    {
+        "Image": "A professional handshake or a team meeting.",
+        "Headline": "Get in Touch",
+        "Subheadline": "Let's Build Something Great Together",
+        "Description": "Ready to start your project? Contact us today to discuss your requirements and discover how Skriptx can help bring your vision to life.",
+        "Image_Url": "images/home-carousel/img-8.png"
+    }
+]

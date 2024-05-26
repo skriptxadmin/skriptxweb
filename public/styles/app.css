@@ -1,19 +1,7 @@
-.carousel .carousel-item {
-  height: 400px;
+#homeCarouselCaptions img {
+  height: 450px;
+  width: 100%;
 }
-.carousel .carousel-item.a {
-  background-color: aquamarine;
-}
-.carousel .carousel-item.b {
-  background-color: azure;
-}
-.carousel .carousel-item.c {
-  background-color: beige;
-}
-.carousel .carousel-item .carousel-caption {
-  color: black;
-}
-
-.ch-200 {
-  height: 200px;
+#homeCarouselCaptions .carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
 }
