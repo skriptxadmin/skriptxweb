@@ -16347,6 +16347,22 @@ body {
   background-color: #194866;
 }
 
+table.table th {
+  text-align: center;
+  font-weight: 500;
+}
+
+footer {
+  background-color: #194866;
+}
+
+nav.primary {
+  background-color: #efefef;
+}
+nav.primary .navbar-brand img {
+  height: 40px;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;

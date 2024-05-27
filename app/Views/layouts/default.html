@@ -1,22 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SkriptX</title>
+    {include file="tpls/meta.html"}
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="{$site_url}/styles/libs.css?ver={$app_version}">
     <link rel="stylesheet" href="{$site_url}/styles/app.css?ver={$app_version}">
+
 </head>
+
 <body>
-    
+
     {include file="tpls/navbar-primary.html"}
 
-    {block name="content"}{/block}
+    <main>
+        {block name="content"}{/block}
+    </main>
+
+
+    {include file="tpls/footer.html"}
 
     <script src="{$site_url}/scripts/libs.js?ver={$app_version}"></script>
     <script src="{$site_url}/scripts/app.js?ver={$app_version}"></script>
 </body>
+
 </html>

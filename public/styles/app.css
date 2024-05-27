@@ -46,3 +46,19 @@
   text-align: justify;
   line-height: 1.6;
 }
+
+.about-us .card-title {
+  color: #194866;
+}
+.about-us .card-subtitle {
+  color: #385f97;
+}
+
+.services .card .description {
+  height: 148px;
+  overflow: hidden;
+}
+
+main {
+  min-height: 100vh;
+}
