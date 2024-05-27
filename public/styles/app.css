@@ -3,5 +3,46 @@
   width: 100%;
 }
 #homeCarouselCaptions .carousel-caption {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(25, 72, 102, 0.8470588235);
+}
+
+.what-we-do h5.card-title {
+  color: #385f97;
+}
+.what-we-do .card-body {
+  height: 200px;
+}
+
+.why-choose-skriptx .card-title {
+  color: #194866;
+}
+.why-choose-skriptx .subtitle {
+  color: #385f97;
+}
+.why-choose-skriptx li {
+  margin-bottom: 1.3em;
+}
+
+.our-process .card-title {
+  color: #194866;
+}
+.our-process .subtitle {
+  color: #385f97;
+}
+.our-process li {
+  margin-bottom: 1.3em;
+}
+
+.success-stories .card-body {
+  height: 300px;
+}
+.success-stories .card-body .card-title {
+  color: #385f97;
+}
+.success-stories .card-body .card-subtitle {
+  margin-bottom: 0.5em;
+}
+.success-stories .card-body .card-text {
+  text-align: justify;
+  line-height: 1.6;
 }
