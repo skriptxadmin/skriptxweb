@@ -17,4 +17,6 @@ $router->get('/careers/parttime', '\App\Controllers\CareersController@parttime')
 $router->get('/careers/internship', '\App\Controllers\CareersController@internship');
 $router->get('/careers/apply', '\App\Controllers\CareersController@apply');
 
+$router->get('/internship/course-plan', '\App\Controllers\InternshipController@course_plan');
+
 
