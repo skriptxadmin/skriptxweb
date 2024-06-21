@@ -56,4 +56,6 @@ class CareersController extends Controller{
         return;
 
     }
+
+   
 }
