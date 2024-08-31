@@ -20,4 +20,8 @@ $router->get('/jd/{id}', '\App\Controllers\JobDescriptionsController@index');
 
 $router->get('/internship/course-plan', '\App\Controllers\InternshipController@course_plan');
 
+$router->get('workshops', '\App\Controllers\WorkshopsController@index');
+$router->get('workshops/book', '\App\Controllers\WorkshopsController@book');
+$router->get('workshops/notify', '\App\Controllers\WorkshopsController@notify');
+
 
