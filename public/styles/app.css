@@ -62,3 +62,15 @@
 main {
   min-height: 100vh;
 }
+
+footer .list-group {
+  background-color: transparent;
+}
+footer .list-group .list-group-item {
+  background-color: transparent;
+  border: none;
+}
+footer .list-group a {
+  color: white;
+  text-decoration: none;
+}

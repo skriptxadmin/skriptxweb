@@ -24,4 +24,8 @@ $router->get('workshops', '\App\Controllers\WorkshopsController@index');
 $router->get('workshops/book', '\App\Controllers\WorkshopsController@book');
 $router->get('workshops/notify', '\App\Controllers\WorkshopsController@notify');
 
+$router->get('privacy-policy', '\App\Controllers\GeneralController@privacy_policy');
+$router->get('refund-and-cancellation-policy', '\App\Controllers\GeneralController@refund_and_cancellation_policy');
+$router->get('terms-and-conditions', '\App\Controllers\GeneralController@terms_and_conditions');
+
 

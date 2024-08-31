@@ -3,3 +3,25 @@
 main{
     min-height: 100vh;
 }
+
+footer {
+
+    .list-group {
+
+        background-color: transparent;
+
+        .list-group-item{
+            
+        background-color: transparent;
+
+        border:none;
+        }
+
+        a {
+
+            color: white;
+
+            text-decoration: none;
+        }
+    }
+}
